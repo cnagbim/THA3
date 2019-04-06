@@ -1,0 +1,17 @@
+AttributeName,Description,DataType,Units
+census_id,the unique identifier the US census Bureau gives every census tract,float64,N/A
+RPL_THEME1,Socioeconomic theme,float64,"percentile, higher value is higher vulnerability in a given theme"
+RPL_THEME2,Household Composition and Disability theme,float64,"percentile, higher value is higher vulnerability in a given theme"
+RPL_THEME3,Minority Status & Language theme,float64,"percentile, higher value is higher vulnerability in a given theme"
+RPL_THEME4,Housing & Transportation theme,float64,"percentile, higher value is higher vulnerability in a given theme"
+RPL_THEMES,overall score,float64,"percentile, higher value is higher vulnerability in a given theme"
+tract_id,the unique identifier the US census Bureau gives every census tract,float64,N/A
+RCAPorECAP,tract is considered a racial or ethnic concentration of poverty,object,N/A
+MajorityMinority,Minority population is 50 or more percent of the census tract,object,N/A
+HispanicConcentration,Predominantly hispanic non white census tract,object,N/A
+BlackAfricanAmConcentration,Predominantly african american or black census tract,object,N/A
+AsianConcentration,Predominantly asian census tract,object,N/A
+PovertyConcentration,more than 40 percent living in poverty in census tract,object,N/A
+DisabledConcentration,predominantly non englich speaker,object,N/A
+LinguisticallyIsolatedConcentration,predominantly disabled census tract,object,N/A
+ForeignBornConcentration,predominantly foreign born,object,N/A
